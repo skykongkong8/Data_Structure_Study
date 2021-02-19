@@ -16,7 +16,7 @@ def create_station_nodes(input_file):
     return stations
 
 #파일 경로
-stations = create_station_nodes("C:/Users/공성식/Desktop/WORKSTATION/Python Workplace/codeit/datascience_machinelearning_codeit/station_line.txt")
+stations = create_station_nodes("./station_line.txt")
 
 #ㄱㄴㄷ순 지하철역이름 정렬 후 출력
 for station in sorted(stations.keys()):
