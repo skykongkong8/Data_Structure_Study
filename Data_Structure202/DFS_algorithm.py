@@ -55,7 +55,7 @@ def dfs(graph, start_node):
             #     pass
 
 #파일 경로
-stations = create_station_graph("C:/Users/공성식/Desktop/WORKSTATION/Python Workplace/codeit/datascience_machinelearning_codeit/station_line.txt")
+stations = create_station_graph("./station_line.txt")
 
 gangnam_station = stations["강남"]
 
