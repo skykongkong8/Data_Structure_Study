@@ -64,7 +64,7 @@ def backtrack(node):
         iterator = iterator.predecessor
     return res_str+f", 최단 경로는 {cnt}입니다."
 
-stations = create_station_graph("C:/Users/공성식/Desktop/WORKSTATION/Python Workplace/codeit/datascience_machinelearning_codeit/station_line.txt")  # stations.txt 파일로 그래프를 만든다
+stations = create_station_graph("./station_line.txt")  # stations.txt 파일로 그래프를 만든다
 
 bfs(stations, stations["을지로3가"])  # 지하철 그래프에서 을지로3가역을 시작 노드로 bfs 실행
 print(backtrack(stations["강동구청"]))  # 을지로3가에서 강동구청역까지 최단 경로 출력
