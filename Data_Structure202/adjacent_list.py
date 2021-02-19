@@ -30,7 +30,7 @@ def create_subway_graph(input_file):
     return stations
 
 #파일 경로
-stations = create_subway_graph("C:/Users/공성식/Desktop/WORKSTATION/Python Workplace/codeit/datascience_machinelearning_codeit/station_line.txt")
+stations = create_subway_graph("./station_line.txt")
 
 for station in sorted(stations.keys()):
     print(f"{stations[station].station_name} : {' '.join([i.station_name for i in stations[station].adjacent_stations])}")
