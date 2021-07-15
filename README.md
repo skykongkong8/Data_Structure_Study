@@ -9,5 +9,6 @@ How to formulate data structure with Python (relatively high level language)
 How to formulate data structure with C (relatively low level language)
 * Run this code at terminal with given data like following:
 ```C
-gcc ****.c | ./a.out -data.txt
+gcc ****.c
+./a.out -data.txt
 ```
